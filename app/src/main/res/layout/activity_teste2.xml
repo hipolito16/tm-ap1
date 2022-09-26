@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".Teste2">
 
     <RadioGroup
@@ -19,37 +20,49 @@
             android:id="@+id/radioButton1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Feminino c/ meno de 40 anos" />
+            android:text="Feminino c/ meno de 40 anos"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Feminino de 40 a 50 anos" />
+            android:text="Feminino de 40 a 50 anos"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Feminino c/ mais de 50 anos" />
+            android:text="Feminino c/ mais de 50 anos"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Masculino" />
+            android:text="Masculino"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Masculino de baixa estatura" />
+            android:text="Masculino de baixa estatura"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Masculino de baixa estatura e calvo" />
+            android:text="Masculino de baixa estatura e calvo"
+            android:textColor="#000000"
+            android:textStyle="bold" />
     </RadioGroup>
 
     <TextView
@@ -58,6 +71,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Sexo"
+        android:textColor="#000000"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/teste"

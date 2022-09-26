@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".Teste4">
 
     <RadioGroup
@@ -19,37 +20,49 @@
             android:id="@+id/radioButton1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Esforço profissional e recreativo intenso" />
+            android:text="Esforço profissional e recreativo intenso"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Esforço profissional e recreativo moderado" />
+            android:text="Esforço profissional e recreativo moderado"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Trabalho sedentário e esforço recreativo intenso" />
+            android:text="Trabalho sedentário e esforço recreativo intenso"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Trabalho sedentário e esforço recreativo moderado" />
+            android:text="Trabalho sedentário e esforço recreativo moderado"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Trabalho sedentário e esforço recreativo leve" />
+            android:text="Trabalho sedentário e esforço recreativo leve"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ausência completa de qualquer exercício" />
+            android:text="Ausência completa de qualquer exercício"
+            android:textColor="#000000"
+            android:textStyle="bold" />
     </RadioGroup>
 
     <TextView
@@ -58,6 +71,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Atividade"
+        android:textColor="#000000"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/teste"

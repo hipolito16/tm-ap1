@@ -22,6 +22,12 @@ class Teste2 : AppCompatActivity() {
         var resultadoTeste1 = intent.getIntExtra("resultadoTeste1", 0)
         var resultadoTeste2: Int = 0
 
+        binding.teste.setOnCheckedChangeListener(
+            RadioGroup.OnCheckedChangeListener { group, checkedId ->
+                val radio: RadioButton = findViewById(checkedId)
+            }
+        )
+
         binding.proximo.setOnClickListener {
 
             var id: Int = binding.teste.checkedRadioButtonId

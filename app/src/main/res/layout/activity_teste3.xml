@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".Teste3">
 
     <RadioGroup
@@ -19,37 +20,49 @@
             android:id="@+id/radioButton1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Inferior a 2,3Kg do peso normal" />
+            android:text="Inferior a 2,3Kg do peso normal"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Menos de 2,3 a mais de 2,3Kg do peso normal" />
+            android:text="Menos de 2,3 a mais de 2,3Kg do peso normal"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="De 2,4 a 9,0Kg acima do peso normal" />
+            android:text="De 2,4 a 9,0Kg acima do peso normal"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="De 9,1 a 15,9Kg acima do peso normal" />
+            android:text="De 9,1 a 15,9Kg acima do peso normal"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="De 16 a 22,9Kg acima do peso normal" />
+            android:text="De 16 a 22,9Kg acima do peso normal"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Mais de 23Kg acima do peso normal" />
+            android:text="Mais de 23Kg acima do peso normal"
+            android:textColor="#000000"
+            android:textStyle="bold" />
     </RadioGroup>
 
     <TextView
@@ -58,6 +71,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Peso"
+        android:textColor="#000000"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/teste"

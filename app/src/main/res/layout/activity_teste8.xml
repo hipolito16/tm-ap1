@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".Teste8">
 
     <RadioGroup
@@ -19,37 +20,49 @@
             android:id="@+id/radioButton1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Abaixo de 180 ou a dieta não contém gorduras animais" />
+            android:text="Abaixo de 180 ou a dieta não contém gorduras animais"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="De 181 a 205 ou a dieta contém 10% de gorduras animais" />
+            android:text="De 181 a 205 ou a dieta contém 10% de gorduras animais"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="De 206 a 230 ou a dieta contém 20% de gorduras animais" />
+            android:text="De 206 a 230 ou a dieta contém 20% de gorduras animais"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="De 231 a 255 ou a dieta contém 30% de gorduras animais" />
+            android:text="De 231 a 255 ou a dieta contém 30% de gorduras animais"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="De 256 a 280 ou a dieta contém 40% de gorduras animais" />
+            android:text="De 256 a 280 ou a dieta contém 40% de gorduras animais"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Acima de 281 ou a dieta contém 50% de gorduras animais" />
+            android:text="Acima de 281 ou a dieta contém 50% de gorduras animais"
+            android:textColor="#000000"
+            android:textStyle="bold" />
     </RadioGroup>
 
     <TextView
@@ -58,6 +71,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Colesterol"
+        android:textColor="#000000"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/teste"

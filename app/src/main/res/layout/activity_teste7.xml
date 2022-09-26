@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".Teste7">
 
     <RadioGroup
@@ -19,37 +20,49 @@
             android:id="@+id/radioButton1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nenhuma história conhecida de cardiopatia" />
+            android:text="Nenhuma história conhecida de cardiopatia"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="1 parente c/ doença cardiaca e mais de 60 anos" />
+            android:text="1 parente c/ doença cardiaca e mais de 60 anos"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="2 parentes c/ doença cardiaca e mais de 60 anos" />
+            android:text="2 parentes c/ doença cardiaca e mais de 60 anos"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="1 parente c/ doença cardiaca e menos de 60 anos" />
+            android:text="1 parente c/ doença cardiaca e menos de 60 anos"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="2 parente c/ doença cardiaca e menos de 60 anos" />
+            android:text="2 parente c/ doença cardiaca e menos de 60 anos"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButton6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="3 parente c/ doença cardiaca e menos de 60 anos" />
+            android:text="3 parente c/ doença cardiaca e menos de 60 anos"
+            android:textColor="#000000"
+            android:textStyle="bold" />
     </RadioGroup>
 
     <TextView
@@ -58,6 +71,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Doença na família"
+        android:textColor="#000000"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/teste"

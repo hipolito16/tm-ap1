@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".Teste8">
 
     <TextView
@@ -13,6 +14,7 @@
         android:layout_marginTop="100dp"
         android:gravity="center"
         android:textSize="34sp"
+        android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -38,6 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:textSize="17sp"
+        android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -51,6 +54,7 @@
         android:gravity="clip_vertical"
         android:text="Sem risco - de 6 a 11\nRisco abaixo da média - de 12 a 17\nRisco médio - de 18 a 24\nRisco moderado - de 25 a 31\nRisco alto - de 32 a 40\nRisco muito alto - 41 a 62"
         android:textSize="17sp"
+        android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
